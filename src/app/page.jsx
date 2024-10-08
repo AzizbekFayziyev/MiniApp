@@ -27,15 +27,15 @@ export default function Home() {
         <img
           data-aos="zoom-in"
           className="block mx-auto"
-          width={200}
-          src="/sphere.png"
+          width={250}
+          src="/sphere.webp"
           alt="hero image"
         />
 
         <img
           data-aos="fade-right"
           data-aos-delay="300"
-          className="absolute z-10 bottom-[-10px] left-[-65px]"
+          className="absolute z-10 bottom-[0] left-[-40px]"
           width={120}
           src="/arrow.png"
           alt="arrow"
