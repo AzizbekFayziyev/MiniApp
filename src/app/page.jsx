@@ -11,7 +11,7 @@ export default function Home() {
     });
   }, []);
   return (
-    <main className="max-w-[420px] mx-auto px-4 text-center text-white pt-4 py-10">
+    <main className="max-w-[420px] mx-auto px-4 text-center text-white pt-2 py-10">
       <h1 data-aos="fade-in" className="text-8xl font-bold stroke-text">
         2 day
       </h1>
@@ -46,31 +46,31 @@ export default function Home() {
         guess the sphere of life and click on the ball
       </h4>
 
-      <div data-aos="zoom-in" className="flex justify-center mt-8 gap-4">
-        <button className="bg-white rounded-full min-w-9 min-h-9 text-black grid place-content-center font-bold border-[4px] border-primary_green">
+      <div data-aos="zoom-in" className="flex justify-center mt-8">
+        <button className="bg-white rounded-full mr-2 min-w-10 min-h-10 text-black grid place-content-center font-bold border-[4px] border-primary_green">
           1
         </button>
-        <button className="bg-white rounded-full min-w-9 min-h-9 text-black grid place-content-center font-bold border-[4px] border-primary_green">
+        <button className="bg-white rounded-full mr-2 min-w-10 min-h-10 text-black grid place-content-center font-bold border-[4px] border-primary_green">
           2
         </button>
-        <button className="bg-white rounded-full min-w-9 min-h-9 text-black grid place-content-center font-bold border-[4px] border-secondary">
+        <button className="bg-white rounded-full mr-2 min-w-10 min-h-10 text-black grid place-content-center font-bold border-[6px] border-secondary">
           3
         </button>
-        <button className="bg-white rounded-full min-w-9 min-h-9 text-black grid place-content-center font-bold border-[4px] border-secondary">
+        <button className="bg-white rounded-full mr-2 min-w-10 min-h-10 text-black grid place-content-center font-bold border-[6px] border-secondary">
           4
         </button>
-        <button className="bg-white rounded-full min-w-9 min-h-9 text-black grid place-content-center font-bold border-[4px] border-secondary">
+        <button className="bg-white rounded-full mr-2 min-w-10 min-h-10 text-black grid place-content-center font-bold border-[6px] border-secondary">
           5
         </button>
-        <button className="bg-white rounded-full min-w-9 min-h-9 text-black grid place-content-center font-bold border-[4px] border-secondary">
+        <button className="bg-white rounded-full mr-2 min-w-10 min-h-10 text-black grid place-content-center font-bold border-[6px] border-secondary">
           6
         </button>
-        <button className="bg-white rounded-full min-w-9 min-h-9 text-black grid place-content-center font-bold border-[4px] border-secondary">
+        <button className="bg-white rounded-full min-w-10 min-h-10 text-black grid place-content-center font-bold border-[6px] border-secondary">
           7
         </button>
       </div>
 
-      <div className="mt-4 grid place-content-center gap-6">
+      <div className="mt-4 grid place-content-center gap-4">
         <button
           data-aos="fade-up"
           className="bg-white text-black font-bold px-4 py-3 rounded-lg flex flex-col items-center border border-black"
